@@ -10,10 +10,10 @@ for ($i = 3; $i <=5500; $i++){
 // we can't get PI for anything less than 3
 // find feasible divisors: range i/3.13 to i/3.15
 
-$div = round($i / 3.13);
+$div = round($i / 3.15);
 	//no point using a lower divisor than this - not close enough to PI
 
-$highest = ceil($i / 3.15);
+$highest = ceil($i / 3.13);
 //no point using a higher divisor than this - not close enough to PI
 
 do 
