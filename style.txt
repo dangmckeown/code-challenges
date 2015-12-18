@@ -1,0 +1,10 @@
+For commenting in PHP, use // for a bonafide comment and # to comment out code
+
+eg 
+
+for ($i = 1; $i <= $target; $i){
+$total += $i;
+#echo "$total <br />";
+//uncomment previous line to show running total
+}
+echo "<p>Final total of all numbers from $i to $target is $total</p>";
