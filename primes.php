@@ -25,7 +25,6 @@ while($i <= $end){
 		} //end foreach primes
 	
 	$primes[] = $i;
-	$primes = array_unique($primes);
 	
 	$i+=2; 
 	
